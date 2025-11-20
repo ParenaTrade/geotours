@@ -802,3 +802,4 @@ CREATE TRIGGER update_business_rating_trigger
     WHEN (NEW.approved = true)
     EXECUTE FUNCTION update_business_rating();
 
+

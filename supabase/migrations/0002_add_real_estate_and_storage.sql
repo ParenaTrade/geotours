@@ -175,3 +175,4 @@ CREATE POLICY "admin_select_all_inquiries" ON public.property_inquiries
 -- - Authenticated write for owners
 -- - Admin full access
 
+
