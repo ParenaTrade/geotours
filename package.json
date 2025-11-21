@@ -1,0 +1,32 @@
+{
+  name georgia-tours-super-app,
+  version 1.0.0,
+  scripts {
+    dev next dev,
+    build next build,
+    start next start,
+    lint next lint
+  },
+  dependencies {
+    next 15.0.0,
+    react 18.2.0,
+    react-dom 18.2.0,
+    @supabasesupabase-js ^2.38.0,
+    @stripestripe-js ^2.1.11,
+    stripe ^14.5.0,
+    tailwindcss ^3.3.0,
+    lucide-react ^0.294.0,
+    qrcode ^1.5.3,
+    jose ^5.2.0,
+    uuid ^9.0.1
+  },
+  devDependencies {
+    @typesnode 20.8.0,
+    @typesreact 18.2.0,
+    @typesreact-dom 18.2.0,
+    @typesuuid ^9.0.7,
+    typescript 5.2.0,
+    autoprefixer ^10.4.16,
+    postcss ^8.4.31
+  }
+}
